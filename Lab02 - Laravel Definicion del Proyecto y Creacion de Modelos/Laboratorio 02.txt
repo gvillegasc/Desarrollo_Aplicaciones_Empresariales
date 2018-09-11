@@ -1,0 +1,75 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 02
+	Alumno: Gerardo Josue Villegas Condori C-15 B
+
+CREANDO UN DOMINIO LOCAL
+1. Agregacion del nombre dominio con resolucion de localhost (Punto 2. Imagen01.png)
+
+2. Modificacion del archivo "httpd-vhosts.conf" (Punto 4. Imagen2.png)
+
+CONFIGURACION EL ENTORNO Y EL PROYECTO DE LARAVEL
+3. Configuracion del nombre de la aplicacion (Punto 5. Imagen3.png)
+
+4. Corroboracion del nombre de la aplicacion (Punto 5.b. Imagen4.png)
+
+5. Cambio de codigo del archivo ".env" (Punto 6.a. Imagen5.png)
+
+CREANDO LOS MODELOS PARA EL PROYECTO
+6. Copiado del codigo "usuario.php" y modificaciones (Punto 7. Imagen6.png)
+
+7. Creando el modelo entidad "Foto.php" (Punto 8. Imagen7.png)
+
+DEFINIENDO RELACIONES DE CARDINALIDAD ENTRE MODELOS
+8. Modificacion del modelo album (Punto 3. Imagen8.png)
+
+9. Modificacion del modelo foto (Punto 5. Imagen9.png)
+
+10. Modificacion del modelo usuario (Punto 7. Imagen10.png)
+
+CREANDO CONTROLADORES
+	EJERCICIO 
+11. Modificacion del modelo usuario para que tenga los campos "pregunta" y "respuesta"(Punto Ejercicio. Imagen11.png)
+
+	EJERCICIO 
+12. ¿Cual es la utilidad, caracteristicas y funcionalidad de una TRAIT EN PHP?
+
+El trait sirve para reducir las limitaciones propias de la herencia simple permitiendo que los desarrolladores reutilicen a
+voluntad conjuntos de métodos sobre varias clases independiente pertenecientes a clases jerárquicas distintas.
+Los miembros heredados de una clase base se sobrescriben cuando se inserta otro miembro homónimo desde un Trait.
+De acuerdo con el orden de precedencia, los miembros de la clase actual sobrescriben los métodos del Trait, 
+que a su vez sobrescribe los métodos heredados.
+Se pueden insertar múltiples Traits en una clase, mediante una lista separada por comas en la sentencia use.
+
+13. Modificacion de nombre de "postRegister" a "postRegistro" (Punto 13. Imagen12.png) 
+
+14. Modificacion de nombre de "getLogin" a "getInicio" (Punto 14. Imagen13.png)
+
+15. Modificacion de nombre de "postLogin" a "postInicio" (Punto 15. Imagen14.png)
+
+16. Modificacion de nombre de "getLogout" a "getSalida" (Punto 16. Imagen15.png)
+
+17. Modificacion de "'/auth/Login'" a "'/validacion/inicio'" (Punto 17. Imagen16.png)
+
+18. Modificacion del valor de retorno con el texto "mostrando formulario inicio sesion" (Punto 18. Imagen17.png)
+
+19. Modificacion del valor de retorno con el texto "Email o contraseña incorrectos." (Punto 19. Imagen18.png)
+
+20. Cambio de valor de retorno de '/home' a '/inicio' (Punto 20. Imagen19.png)
+
+21. Creando funcion para recuperar cuenta (Punto 21. Imagen20.png)
+
+22. Modificacion de archivo a "InicioController.php" (Punto 22. Imagen21.png)
+
+23. Modificacion del nombre de clase de "HomeController" a "InicioController" (Punto 24. Imagen22.png)
+
+24. Asignado un valor de retorno a la funcion "getIndex" (Punto 25. Imagen23.png)
+
+25. Modificaion del nombre de archivo a "BienvenidaController.php" (Punto 27. Imagen24.png)
+
+26. Modificacion del nombre de clase de "WelcomeController" a "BienvenidaController" (Punto 28. Imagen25.png)
+
+27. Cambio de nombre de la funcion "index" a "getIndex" (Punto 29. Imagen26.png)
+
+
+
+

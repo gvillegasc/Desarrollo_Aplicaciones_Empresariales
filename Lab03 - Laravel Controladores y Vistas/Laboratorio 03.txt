@@ -1,0 +1,55 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 03
+	Alumno: Gerardo Josue Villegas Condori C-15 B
+
+CREANDO CONTROLADORES
+1. Controlador Foto (Punto 9. Imagen1.png)
+
+2. Controlador Album (Punto 11. Imagen2.png)
+
+3. Controlador para el Usuario (Punto 12. Imagen3.png)
+
+4. Agregacion de contenido en el controlador Album (Punto 13. Imagen4.png)
+
+CREANDO RUTAS EN LARAVEL
+5. Modificacion del archivo rutas (Punto 1. Imagen5.png)
+
+6. Probando el index de la aplicacion (Punto 2. Imagen6.png)
+
+PROBANDO LA RUTA PARA VALIDADO
+7. Modificando la redireccion a "validacion/inicio" (Punto 4. Imagen7.png)
+
+8. Modificacion de la ruta "home" por "/validado" (Punto 7. Imagen8.png)
+
+9. Ejecucion de "gestorlaravel.com/validado" (Imagen9.png)
+
+10. Ejecucion de "gestorimagenes/public/validado/fotos" (Imagen10.png)
+
+PARA OMITER EL CONTROL DE USUARIO
+11. Ejecucion de "http://gestorlarevel.com/validado/fotos" (Imagen11.png)
+
+12. Ejecucion de "http://gestorlaravel.com/validado/fotos/crear-foto" (Imagen12.png)
+
+13. Ejecucion con una url inexistente (Imagen13.png)
+
+CREANDO LAS PRIMERAS VISTAS
+14. Cambio de "Home" por "Inicio" (Punto 1.a. Imagen14.png)
+
+15. Cambio de "Register" por "Registrarse" (Punto 1.c. Imagen15.png)
+
+16. Cambio de "Logout" por "Salir" (Punto 1.d. Imagen16.png)
+
+PROBANDO LA FUNCIONALIDAD DEL CODIGO.
+17. Ejecutando la Url "http://gestorlaravel.com" "Inicial Sesion" y "Registrarse" (Punto 2. Imagen17, 18 y 19 png)
+
+18. Modificacion de retorno de "getRegistro()" (Punto 4. Imagen20.png)
+
+19. Modificacion de retorno de "getInicio()" (Punto 5. Imagen21.png)
+
+CREANDO VISTAS
+20. Ejecuando el Url "http://gestorlaravel.com/validacion/inicio" (Punto 11. Imagen22.png)
+
+21. Ejecuando el Url "http://gestorlaravel.com/validacion/registro" (Punto 11. Imagen23.png)
+
+CREANDO VISTA PARA RECUPERAR CONTRASEÑA
+22. Modificacion de retorno de "getRecuperar()" (Punto 3. Imagen24.png)

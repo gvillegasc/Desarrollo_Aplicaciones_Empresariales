@@ -1,0 +1,17 @@
+
+OBSERVACIONES
+
+1.	Para poder usar laravel se tiene que instalar el composer ya que sin este no podremos 
+2.	Se tiene que tener un servidor para poder desarrollar aplicaciones en laravel.
+3.	Lavarel trabaja con una base de datos la cual viene al momento de usar Xampp o Wamp
+4.	La carpeta donde se guardarán todos nuestros proyectos es htdocs en Xampp y www en Wamp
+5.	Al momento de crear un proyecto en laravel podemos indicar con que versión de laravel queremos trabajar
+
+
+CONCLUSIONES
+
+1.	Xampp y Wamp son servidores independientes de plataforma de código libre
+2.	Xampp y Wamp sirven para poder realizar proyectos en php
+3.	Se tiene que trabajar con una base de datos para poder realizar proyectos php
+4.	Laravel es un framework de código abierto para desarrollar aplicaciones y servicio web con php
+5.	La filosofía de laravel es desarrollar código php de forma simple y evita usar “código espagueti”

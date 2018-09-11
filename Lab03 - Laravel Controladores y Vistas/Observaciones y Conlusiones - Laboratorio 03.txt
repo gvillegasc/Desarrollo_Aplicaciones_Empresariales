@@ -1,0 +1,15 @@
+OBSERVACIONES
+
+1.	Para retornar una vista esta tiene que estar dentro de comilla simple, parentesis y en un return
+2.	Si una retornamos una vista que no existe nos ocurrira un error
+3.	Podemos reportar mensajes los cuales deben estas dentro de comilla simple
+4.	El nombre de la clase debe tener el mismo nombre del controlador
+5.	En una funcion solo de puede reportar una accion
+
+CONCLUSIONES
+
+1.	Laravel posee una vista diseñada para errores
+2.	Para declarar quien llama a quien tenemos usar las rutas para redireccionar vistas
+3.	Los controladores nos permiten retornar vistas
+4.	Siempre se tiene que tener una pagina de error 404 la cual nos indica que esa pagina no existe
+5.	El error 404 es una ayuda para saber si enrutamos bien nuestra pagina o cometimos un error

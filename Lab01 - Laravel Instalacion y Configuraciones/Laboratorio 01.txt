@@ -1,0 +1,7 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 01
+	Alumno: Gerardo Josue Villegas Condori C-15 B
+
+1. Creando un proyecto con la estructura Laravel (Imagen1.png)
+
+2. Ejecutando aplicacion Laravel (Imagen2.png)

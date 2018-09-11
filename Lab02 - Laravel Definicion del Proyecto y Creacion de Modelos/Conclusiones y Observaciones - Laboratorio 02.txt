@@ -1,0 +1,16 @@
+OBSERVACIONES
+
+1.	En el archivo “. env” tenemos que indicar las credenciales de la base de datos a la que se conectara nuestro sistema
+2.	Las tablas en la base de datos se crearán solas solo se necesita indicar la ruta de la base de datos con la que se trabajara
+3.	En la variable “fillable” se indican los registros que tendrán las tablas de la base de datos
+4.	Laravel usa el patrón de diseño Modelo Vista Controlador 
+5.	Los trait son similares a las clases solo que estos agrupan funcionalidades especificas
+
+
+CONCLUSIONES
+
+1.	Laravel tiene que usar una base datos relacional para que funcione sin problemas
+2.	La base de datos tiene que existir en PhpMyAdmin ya que los datos se extraerán de ahí
+3.	Modelo-vista-controlador es un patrón de arquitectura de software, que separa los datos y la lógica de negocio de una aplicación de su representación y el módulo encargado de gestionar los eventos y las comunicaciones
+4.	MVC propone la construcción de tres componentes distintos que son el modelo, la vista y el controlador, es decir, por un lado, define componentes para la representación de la información, y por otro lado para la interacción del usuario.
+5.	Los trait son mecanismos de reutilización de código de lenguajes de herencia simple

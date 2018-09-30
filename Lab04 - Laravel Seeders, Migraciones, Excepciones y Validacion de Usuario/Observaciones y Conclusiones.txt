@@ -1,0 +1,15 @@
+OBSERVACIONES
+
+	1. Las migraciones son uyn tipo de control de versiones de base de datos.
+	2. Los seeders cargan datos de prueba a las tablas para trabajar con ellos.
+	3. Para trabajar con seeders se usan ciclos para llenar datos en la base de datos.
+	4. El campo "unique:usuarios" impide que existan usuarios con el nombre igual en la base de datos.
+	5. Laravel posee 2 tipos de alertas, danger y success las cuales nos indican si algo salio bien o mal.
+
+CONCLUSIONES
+
+	1. El comando "php artisan make:migration --create=" crea una tabla segun el nombre que le coloquemos a esta.
+	2. Las contraseñas que ingresan en la base de datos deben estar encriptadas.
+	3. Se recomienda usar el comando "composer dumpautoload" para actualizar los archivos.
+	4. Para poder usar un toker se tiene que importar la libreria correspondiente.
+	5. La funcion validator() nos ayuda a verificar que los datos del registro cumplan con las condiciones que le indiquemos.

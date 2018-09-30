@@ -1,0 +1,64 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 04
+	Alumno: Gerardo Josue Villegas Condori
+
+CREANDO MIGRACION DE MODELOS A LA BASE DE DATOS
+1. Ingresando comando "php artisan make:migration --create="albumes" CrearTablaAlbumes" (Punto 2. Imagen01.png)
+
+2. Ingresando comando "php artisan make:migration --create="fotos" CrearTablaFotos" (Punto 3. Imagen02.png)
+
+3. Borrando el archivo "create_password_resets_table.php" (Punto 5. Imagen03.png)
+
+CAMBIO DE DATOS EN ARCHIVOS PHP
+4. Modificacion de archivo "create_users_table.php" (Punto 1. Imagen04.png)
+
+5. Modificacion de archivo "CreateTablaAlbumes" (Punto 2. Imagen05.png)
+
+6. Modificacion de archivo "CreateTablaFotos" (Punto 3. Imagen06.png)
+
+7. Ejecucion de comando php artisan migrate (Punto 6. Imagen07.png)
+
+8. Verificacion de tablas en la base de datos (Punto 7. Imagen08.png)
+
+CREANDO SEEDERS
+
+9. Modificacion de archivo UsuariosSeeder (Punto 4. Imagen09.png)
+
+10. Modificacion de archivo AlbumesSeeder (Punto 5. Imagen10.png)
+
+11. Modificacion de archios FotosSeeder (Punto 6. Imagen11.png)
+
+12. Ingresando comando "php artisan db:seed" (Punto 8. Imagen12.png)
+	¿Que sucedio? Se ingresaron datos a la base de datos automaticamente con valores
+			que declaramos en las funciones (Punto 8. Imagen13.png)
+
+ACCESO Y VALIDADCION DE USUARIOS
+13. Modificacion de archivo "Registrar.php" (Punto 5. Imagen14.png)
+	
+14. Modificacion de archivo "Registrar.php" (Punto 6. Imagen15.png)
+
+15. Modificacion de archivo "auth.php" (Punto 7. Imagen16.png)
+	Usuario: email@test.com		Password: pass1(Punto7. Imagen17.png)
+
+16. Verificacion de creacion de usuario (Punto 12. Imagen18.png - Imagen19.png)	
+
+MODIFICANDO EL REQUEST DEL INICIO DE SESION
+17. Ingresando comando "php artisan make:request IniciarSesionRequest" (Punto 2. Imagen20.png)
+
+18. Adicionando un "use" al request IniciarSesionRequest (Punto 6. Imagen21.png)
+
+CRENADO LA FUNCIONALIDAD PARA RECUPERAR LA CONTRSEÑA POR PARTE DEL USUARIO
+19. ¿Cual seria el proceso de crear un Reques de nombre: "RecuperarContraseñaRequest"?
+	Colocar "php artisan make:request RecuperarContrasenaRequest" (Punto 1. Imagen22.png)
+
+20. Copiando codgo de rules al Request Iniciar Sesion (Punto 3. Imagen23.png)
+
+PROBANDO CODIGO
+21. Recuperando contraseña de "email@test.com" (Punto 8. Imagen24.png)
+
+
+
+
+
+
+

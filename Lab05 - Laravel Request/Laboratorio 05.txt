@@ -1,0 +1,20 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 05
+	Alumno: Gerardo Josue Villegas Condori
+
+CREANDO LA FUNCIONALIDAD: ACTUALIZAR PERFIL DE USUARIO
+1. Modificacion de la funcion getEditarPerfil del controlador usuario (Punto 4. Imagen01.png)
+
+2. Agregacion de la opcion editar perfil (Punto 5. Imagen02.png)
+
+3. Añadiendo reglas a EditarPerfilRequest (Punto 9. Imagen03.png)
+
+4. Modificando perfil de usuario01 (Punto 14. Imagen04.png - Imagen05.png)
+
+CREANDO LA FUNCIONALIDAD DE MOSTRAR ALBUMES
+5. Modificacion de getIndex del album controler (Punto 3. Imagen06.png)
+
+6. Demostracion de albumes de usuario1 (Punto 6. Imagen07.png)
+
+CREADNO LA FUNCIONALIDAD PARA MOSTRAR FOTOS
+7. Mostrando fotos de un album de usuario1 (Punto 8. Imagen08.png)

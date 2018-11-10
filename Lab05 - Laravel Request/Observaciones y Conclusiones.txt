@@ -1,0 +1,14 @@
+
+OBSERVACIONES 
+	1. Request nos permite capturar variables enviadas desde formularios con los métodos GET o POST
+	2. No se pueden enviar datos binarios en el metodo GET
+	3. En PHP los datos se administran con el array asociativo $_GET.
+	4. El método POST no tiene límite de cantidad de información a enviar.
+	5. Un array asociativo que por defecto contiene el contenido de $_GET, $_POST y $_COOKIE
+
+CONCLUSIONES
+	1. El método GET envía la información codificada del usuario en el header del HTTP request, 
+	2. El método POST también se codifica la información, pero ésta se envía a través del body del HTTP Request
+	3. $_REQUEST es una matriz asociativa que consiste en el contenido de $_GET, $_POST, y $_COOKIE
+	4. Request esta disponible en todos los ambitos a traves de uns script
+	5. PHP proporciona el array asociativo $_POST para acceder a la información enviada.

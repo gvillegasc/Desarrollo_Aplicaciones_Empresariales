@@ -1,0 +1,14 @@
+
+OBSERVACIONES 
+	1. Creamos el CrearAlbumRequest para indicar que datos se recibiran y se mandatan a AlbumController.
+	2. Creamos el CrearFotoRequest para indicar que datos se recibiran y se mandatan a FotoController.
+	3. Referenciamos el request CrearAlbumRequest en AlbumController
+	4. Referenciamos el request CrearFotoRequest en FotoController
+	5. La funcion old('dato') nos permite mostrar los datos antes de ser modificados
+
+CONCLUSIONES
+	1. Al momento de acceder a una vista tenemos que colocar cual es la carpeta que la posee 
+	2. Todas las vistas que hagan acciones de recibir parametos para que esas acciones de apliquen a los datos respectivos
+	3. Request esta disponible en todos los ambitos a traves de un script
+	4. El Request nos permite indicar tipo de dato que recibiremos
+	5. Tiene que existir un Request en cada controlador para administrar los datos de entrada

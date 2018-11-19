@@ -1,0 +1,43 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 07
+	Alumno: Gerardo Josue Villegas Condori
+
+CREANDO LA FUNCIONALIDAD PARA EDITAR UN ALBUM
+1. ¿Que hicimos al gregar esa linea? (Punto 5.)
+	Agregar una opcion en cada album para que se puede editar y actualizar
+
+2. Creacion de "ActualizarAlbumRequest" (Punto 7. Imagen01.png)
+
+3. Referenciar a "ActualizarAlbumRequest" en el controlador Album (Punto 8. Imagen02.png)
+
+4. Modificacion de la funcion authorize() (Punto 9. Imagen03.png)
+
+5. ¿De que se encarga la funcion authorize() en este Request?
+	Obtiene el id del usuario y se lo envia a albumes
+
+6. Modificacion de la funcion rules de "ActualizarAlbumRequest" (Punto 11. Imagen04.png)
+
+7. Modificacion de la funcion postActualizarAlbum() de "ActualizarAlbumRequest" (Punto 12. Imagen05.png)
+
+8. ¿Que se hizo en el codigo mostrado?
+	Se recogen los nuevos valores de nombre y descripción para reemplazarlos del nombre y descripción anterior y
+	se mostrar un mensaje cuando esto se ya se hayan reemplazados
+
+9. Inclusion para del mensaje para mostrar que el album se actualizo (Punto 13. Imagen06.png)
+
+10 Verificacion del mensaje al momento de actualizar un album (Punto13. Imagen07.png - Imagen08.png - Imagen09.png)
+
+CREANDO LA FUNCIONALIDAD PARA EDITAR UNA FOTO - MOVER Y COPIAR ARCHIVOS
+11. ¿Que se hizo en esta funcion? (Punto15. )
+	Llama a la vista actualizar foto y le manda el id de foto
+
+12. Creacion de "ActualizarFotoRequest" (Punto 18. Imagen10.png)
+
+13. ¿Qué estamos haciendo en las dos funciones principales de este Request? (Punto 22.)
+	En authorize() recogemos el id del album y se lo envia a la foto
+	En rules indica los parametros que se necesitan para modificacion de la foto
+
+14. ¿Qué hace el código de la vista? (Punto 24.)
+	Nos mostrara un mensaje cuando se edite la foto para indicarnos que se hizo de manera correcta
+
+15. Probar que se pueda modificar una foto en un album (Punto 24. Imagen11.png - Imagen12.png - Imagen13.png)

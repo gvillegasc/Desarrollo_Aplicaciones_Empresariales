@@ -1,0 +1,14 @@
+
+OBSERVACIONES 
+	1. Modificamos la funcion getActualizarAlbum para que returne la vista actualizar album
+	2. Añadimos la funcionalidad Editar Album para que nos mande al formulario de edicion
+	3. Añadimos el mensaje para indicarnos que se edito el album
+	4. Modificamos postActualizarFoto para que se ejecuten las vistas y los request
+	5. Retornamos la funcion with indicando que mensaje se mostrara al momento de realizar una modificacion
+
+CONCLUSIONES
+	1. Cuando se envía un formulario a un script de PHP, la información de dicho formulario pasa a estar automáticamente disponible en el script
+	2. En la funcion rules indicamos las condiciones para los paremetros recibidos
+	3. Todos lo request deben estar referenciados en sus respectivos controladores
+	4. Al momento de returnar vistas mandamos el id para indicar que vista especifica mandaremos
+	5. Todos los mensajes de notificacion de accion deben estar definidos en las vistas

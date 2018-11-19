@@ -1,0 +1,21 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 06
+	Alumno: Gerardo Josue Villegas Condori
+
+INSERTANDO ALBUMES EN LA BASE DE DATOS
+1. Creacion de la vista "crear-album.blade.php" (Punto 2. Imagen01.png)
+
+2. Referenciar el request "CrearAlbumRequest" en el controlador Album (Punto 4. Imagen02.png)
+
+3. Modificacion de la funciones rules de "CrearAlbumRequest" (Punto 5. Imagen03.png)
+
+4. Referenciar AlbumController al modelo Album (Punto 6. Imagen04.png)
+
+5. Creacion de un Album en la aplicacion (Punto 9. Imagen05.png - Imagen06.png)
+
+INSERTANDO FOTOS EN LA BASE DE DATOS
+6. Creacion de la vista "crear-foto.blade.php" (Punto 6. Imagen07.png)
+
+7. Modificacion de la funcion postCrearFoto (Punto 9. Imagen08.png)
+
+8. Creacion de Fotos en una la aplicacion (Punto 10. Imagen09.png - Imagen10.png)

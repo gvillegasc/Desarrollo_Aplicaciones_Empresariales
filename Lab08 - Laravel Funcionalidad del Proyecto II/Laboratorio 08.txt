@@ -1,0 +1,27 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 08
+	Alumno: Gerardo Josue Villegas Condori
+
+CREANDO LA FUNCIONALIDAD PARA ELIMINAR ALBUMES Y FOTOS
+1. ¿Será necesario usar un método getEliminarAlbum?
+	No ya que no debemos recibir una eliminacion si no realizarla
+
+2. Creacion de "EliminarAlbumRequest" (Punto 3. Imagen01.png)
+
+3. Modificacion de la funcion "postEliminarAlbum" (Punto 5. Imagen02.png)
+
+4. Comprobasion de que se puede eliminar un album (Punto 6. Imagen03.png - Imagen04.png)
+
+CREANDO FUNCIONALIDAD PARA ELIMINAR FOTOS
+5. Creacion de "EliminarFotoRequest" (Punto 2. Imagen05.png)
+
+6. ¿Qué hacen las dos funciones importantes en este request?
+	La funcion authorize() recogemos el id del album y se lo envia a la foto
+	En rules indica los parametros que necesita exista la id de la foto
+
+7. Cuál es la finalidad de la función unlink, file_exists y realpath.
+	unlink -> Sirve para eliminar un archivo, esta función devuelve VERDADERO en caso de éxito, o FALSO en caso de error.
+	file exists -> Sirve para verificar si existe o no un archivo o directorio, esta función devuelve VERDADERO si el archivo o directorio existe, de lo contrario devuelve FALSO.
+	realpath -> Sirve para devolver la ruta de acceso absoluto
+
+8. Comprobacion de que se puede eliminar una foto de un album (Punto 6 Imagen06.png - Imagen07.png)

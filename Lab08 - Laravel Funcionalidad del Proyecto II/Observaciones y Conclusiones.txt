@@ -1,0 +1,14 @@
+
+OBSERVACIONES 
+	1. Realpath() expande todos los enlaces simbólicos y resuelve las referencias de caracteres '/./', '/../' y '/' 
+	2. La función unlink () genera un error de nivel E_WARNING en caso de error.
+	3. Referenciamos el request CrearAlbumRequest en AlbumController
+	4. Nos de muestra un mensaje de confirmacion al momento de querer eliminar una foto o un album
+	5. El mensaje de eliminacion del album desbe estar declarado en la vista
+
+CONCLUSIONES
+	1. La función unlink () en PHP es una función incorporada que se utiliza para eliminar un archivo.
+	2. El usuario del servidor web debe tener permisos de escritura en el directorio para usar la función unlink ().
+	3. La función file_exists () en PHP es una función incorporada que se usa para verificar si un archivo o directorio existe o no.
+	4. La ruta del archivo o directorio que desea verificar se pasa como un parámetro a la función file_exists () que devuelve True en caso de éxito y False en caso de error.
+	5. La ruta se envía como un parámetro a la función realpath () y devuelve la ruta de acceso absoluta en caso de éxito y Falso en caso de falla.

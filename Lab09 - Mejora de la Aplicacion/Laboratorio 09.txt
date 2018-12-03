@@ -1,0 +1,19 @@
+APLICACIONES EMPRESARIALES 
+	Laboratorio 09
+	Alumno: Gerardo Josue Villegas Condori
+
+MEJORANDO EL PROYECTO
+1. Modificacion de la vista app.blade.php (Punto 2. Imagen01.png)
+
+2. Agregacion de codigo a la vista mostrar albumes (Punto 3. Imagen02.png)
+
+3. Agregacion de codigo a la vista mostrar fotos (Punto 4. Imagen03.png)
+
+4. Comprobacion de la interfaz de las vistas mostrar (Imagen04.png - Imagen05.png)
+
+5. Modificacion de la funcion postEliminarAlbum (Punto 5. Imagen06.png)
+
+COMANDO PARA RE-ALIMENTAR LA BASE DE DATOS
+6. Ejecucion del comando "php artisan migrate:refresh --seed" (Punto 4. Imagen07.png)
+
+7. Acceder al programa con las credenciales de la base de datos (Punto 5. Imagen08.png - Imagen09.png)

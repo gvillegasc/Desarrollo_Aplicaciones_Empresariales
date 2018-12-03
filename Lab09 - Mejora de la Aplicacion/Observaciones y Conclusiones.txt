@@ -1,0 +1,14 @@
+
+OBSERVACIONES 
+	1. Se usan las funciones @foreach de distribuyen los albumes y fotos.
+	2. Modificamos la vista mostrar albumes para el mejoramiento de la interfaz
+	3. Modificamos la vista mostrar fotos para el mejoramiento de la interfaz
+	4. php artisan migrate:refresh –seed nos permite reenviar datos a la base de datos
+	5. La funcion file exists devuelve TRUE si el fichero o directorio especificado por filename existe; FALSE si no.
+
+CONCLUSIONES
+	1. La funcion unlink permite borrar ficheros
+	2. La funcion file_exists comprueba si existe un fichero o directorio
+	3. La funcion realpath devuelve el nombre de la ruta absoluta canonizada
+	4. realpath() expande todos los enlaces simbólicos y resuelve las referencias de caracteres '/./', '/../' y '/'
+	5. La funcion getcwd obtiene el directorio actual en donde se esta trabajando
